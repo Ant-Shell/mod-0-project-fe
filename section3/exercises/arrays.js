@@ -117,7 +117,7 @@ var chargerType = "car";
 if (percentBatteryLeft >= 15){ // Can call an Uber if battery life is greater or equal to 15
   console.log("You are able to call an Uber, hooray!");
 } else if (hasCharger === true && chargerType === "car") { // Can call Uber if percentBatteryLeft is less than 15, but has a car charger
-    console.log("You are able to call an Uber, hooray!");
+  console.log("You are able to call an Uber, hooray!");
 } else {
   console.log("No Uber for you, sorry."); // Unable to call Uber if battery life is less than 15 and does not have a car charger
 }
